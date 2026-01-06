@@ -177,3 +177,4 @@ ball.state = 'TITLE';
 visualTimers.titleFadeTimer = 0;
 requestAnimationFrame(loop);
 
+

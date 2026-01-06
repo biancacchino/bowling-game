@@ -7,3 +7,4 @@ export function saveHighScore(score) {
   localStorage.setItem('bowlingHighScore', score.toString());
 }
 
+

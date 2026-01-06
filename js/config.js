@@ -25,7 +25,8 @@ export const HUD_MESSAGE_INSTRUCTIONS =
   'Aim with arrows, hold space to charge your roll.';
 
 export const pinRows = [4, 3, 2, 1];
-export const pinRadius = 8;
-export const pinHorizontalSpacing = 28;
+export const pinRadius = 16;
+export const pinHorizontalSpacing = 48;
 export const pinVerticalSpacing = 32;
+
 

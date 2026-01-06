@@ -26,3 +26,4 @@ export function triggerHudPulse(hud, RESULT_PULSE_DURATION) {
   setTimeout(() => hud.classList.remove('pulse'), RESULT_PULSE_DURATION * 1000);
 }
 
+
