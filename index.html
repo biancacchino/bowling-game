@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bowling Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="game" width="1200" height="800"></canvas>
+    <div id="hud"></div>
+    <div class="ui">
+      <label class="slider-label">
+        Gutter:
+        <input id="gutterRange" type="range" min="10" max="120" value="38" />
+        <span id="gutterValue">38</span>
+      </label>
+      <button id="newRollBtn">New Roll</button>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
